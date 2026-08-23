@@ -1,5 +1,6 @@
 Best model: Logistic Regression
-Example symptom profile: {'fever': 1, 'cough': 1, 'headache': 0, 'fatigue': 1, 'body_pain': 1}
-Predicted educational category: Flu
+Example transaction prediction: Fraud
 
-This output is not medical advice or a diagnosis.
+Transaction details:
+ transaction_amount  account_age_days  transactions_last_24h  international_transaction  unusual_device  unusual_location  failed_login_attempts  distance_from_home_km
+             1850.0               120                     12                          1               1                 1                      2                  220.0
