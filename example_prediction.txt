@@ -1,0 +1,5 @@
+Best model: Logistic Regression
+Example symptom profile: {'fever': 1, 'cough': 1, 'headache': 0, 'fatigue': 1, 'body_pain': 1}
+Predicted educational category: Flu
+
+This output is not medical advice or a diagnosis.

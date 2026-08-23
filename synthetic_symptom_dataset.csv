@@ -1,0 +1,23 @@
+fever,cough,headache,fatigue,body_pain,diagnosis
+1,1,1,1,1,Flu
+1,1,0,1,1,Flu
+1,1,1,1,0,Flu
+1,0,0,1,1,Flu
+1,1,0,1,0,Flu
+1,0,1,1,0,Flu
+0,1,1,0,0,Common Cold
+0,1,0,1,0,Common Cold
+0,1,0,0,1,Common Cold
+0,1,1,0,1,Common Cold
+0,1,0,1,1,Common Cold
+0,0,1,0,0,Migraine
+0,0,1,1,0,Migraine
+0,0,1,1,1,Migraine
+0,0,1,0,1,Migraine
+0,0,1,1,0,Migraine
+0,0,0,0,0,Healthy
+0,0,0,0,0,Healthy
+0,0,0,0,0,Healthy
+0,0,0,1,0,Healthy
+0,0,0,0,1,Healthy
+0,0,0,1,0,Healthy
