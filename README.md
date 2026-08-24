@@ -1,22 +1,24 @@
-# Fraud Detection in Banking
+# Image Classifier using CNN
 
-## CODETECH Internship - Task 2
+## CODETECH Internship - Task 3
 
-This project demonstrates a machine-learning workflow for detecting potentially fraudulent banking transactions.
+This project implements a Convolutional Neural Network (CNN) for handwritten digit image classification using the scikit-learn digits dataset.
 
-### What it does
-- Creates a reproducible synthetic banking transaction dataset.
-- Trains Logistic Regression, Decision Tree, and Random Forest classifiers.
-- Compares Accuracy, Precision, Recall, and F1 Score.
-- Generates a confusion matrix and model-comparison chart.
-- Saves an example prediction and evaluation files in `outputs`.
+### Workflow
+- Load and normalize image data
+- Build a CNN with convolution, pooling, dense and dropout layers
+- Train with Adam optimization
+- Evaluate accuracy and loss
+- Generate a classification report and confusion matrix
+- Save training curves, predictions and the trained Keras model
 
 ### Run
 ```bash
-pip install -r requirements.txt
-python fraud_detection_ai.py
+python -m pip install -r requirements.txt
+python image_classifier_cnn.py
 ```
 
-The dataset and generated outputs are saved in the `outputs` folder.
+The generated results are saved in the `outputs` folder.
 
-> Educational project: the dataset is synthetic and must not be used for real banking or financial decisions.
+### Dataset
+The educational `sklearn.datasets.load_digits` dataset contains 8x8 grayscale handwritten-digit images for classes 0 through 9.

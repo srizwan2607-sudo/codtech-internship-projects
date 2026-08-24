@@ -1,25 +1,26 @@
 # PROJECT REPORT
-## Fraud Detection in Banking
+## Image Classifier using Convolutional Neural Network (CNN)
 
-### 1. Introduction
-Fraud detection is a classification problem where machine-learning models identify transactions that may be fraudulent.
+### 1. Objective
+Build and evaluate a CNN that classifies handwritten digit images into ten classes (0-9).
 
-### 2. Objective
-Build and compare machine-learning classification models for detecting fraudulent banking transactions.
+### 2. Dataset
+The scikit-learn digits dataset is normalized and reshaped to include a grayscale channel.
 
-### 3. Dataset
-A synthetic dataset is generated with transaction amount, account age, transaction frequency, international status, unusual device/location indicators, failed login attempts, distance from home, and fraud label.
+### 3. CNN Architecture
+- 32-filter convolution layer
+- Max pooling
+- 64-filter convolution layer
+- Flatten
+- Dense layer with 128 units
+- Dropout
+- 10-class softmax output
 
-### 4. Algorithms
-- Logistic Regression
-- Decision Tree
-- Random Forest
+### 4. Evaluation
+The project records test accuracy and loss, classification metrics, a confusion matrix, and training/validation curves.
 
-### 5. Evaluation
-Models are evaluated using Accuracy, Precision, Recall, and F1 Score. The model with the highest F1 Score is selected as the best model.
+### 5. Deliverables
+Metrics, classification report, confusion matrix, training plots, sample predictions and a saved trained Keras model are generated.
 
-### 6. Outputs
-The program generates a synthetic dataset, model comparison CSV and chart, confusion matrix, classification report, feature importance when supported, and an example prediction.
-
-### 7. Conclusion
-The project demonstrates an end-to-end educational machine-learning workflow for a banking fraud-detection use case.
+### 6. Conclusion
+This project demonstrates an end-to-end CNN image-classification workflow from data preparation through training, evaluation, visualization and model saving.
