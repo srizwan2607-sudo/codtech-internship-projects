@@ -1,10 +1,18 @@
-Best model: Logistic Regression
-
+CNN Image Classifier - Classification Report
+==================================================
               precision    recall  f1-score   support
 
-  Legitimate       0.86      0.74      0.80       521
-       Fraud       0.55      0.72      0.62       229
+           0       1.00      0.97      0.99        36
+           1       0.92      0.92      0.92        36
+           2       0.97      1.00      0.99        35
+           3       0.97      1.00      0.99        37
+           4       0.95      0.97      0.96        36
+           5       0.97      1.00      0.99        37
+           6       0.97      0.97      0.97        36
+           7       0.97      0.97      0.97        36
+           8       0.97      0.86      0.91        35
+           9       0.97      1.00      0.99        36
 
-    accuracy                           0.74       750
-   macro avg       0.70      0.73      0.71       750
-weighted avg       0.76      0.74      0.74       750
+    accuracy                           0.97       360
+   macro avg       0.97      0.97      0.97       360
+weighted avg       0.97      0.97      0.97       360
