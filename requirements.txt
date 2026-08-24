@@ -1,5 +1,3 @@
-tensorflow
-numpy
 pandas
-matplotlib
 scikit-learn
+matplotlib
